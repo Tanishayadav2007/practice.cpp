@@ -21,7 +21,7 @@ int main(){
   }
   cout<<"boundary elements are:"<<endl;
     //first row
- for(i=0;i<3;i++){
+ for(i=0;i<cols;i++){
     cout<<arr[0][i]<<" ";
  }
    // Print the last row (excluding the corners)
