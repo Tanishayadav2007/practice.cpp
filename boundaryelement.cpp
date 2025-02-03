@@ -12,13 +12,15 @@ int main(){
    }
   }
   cout<<"matrix you entered:"<<endl;
-  //first row
+
   for(i=0;i<rows;i++){
     for(j=0;j<cols;j++){
         cout<<"\t"<<arr[i][j];
     }
     cout<<endl;
   }
+  cout<<"boundary elements are:"<<endl;
+    //first row
  for(i=0;i<3;i++){
     cout<<arr[0][i]<<" ";
  }
